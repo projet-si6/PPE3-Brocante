@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <center>
+        <h1>Administration</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                    <a href="{{path('NewCategorie')}}" style="background-color: #DF691A; color: white; padding-top: 50px; padding-left:50px; padding-bottom:50px; padding-right:50px;">Création d'une catégorie</a>
+            </div>
+            <div class="col-lg-4">
+                    <a href="" style="background-color: #DF691A; color: white; padding-top: 50px; padding-left:50px; padding-bottom:50px; padding-right:50px;">Modification d'une catégorie</a>
+            </div> 
+            <div class="col-lg-4">
+                    <a href="" style="background-color: #DF691A; color: white; padding-top: 50px; padding-left:50px; padding-bottom:50px; padding-right:50px;">Supprimer d'une catégorie</a>
+            </div>      
+        </div>
+        <hr style="border-color : white; margin-bottom:5rem; margin-top:5rem;">
+        <div class="row">
+            <div class="col-lg-4">
+                    <a href="" style="background-color: #DF691A; color: white; padding-top: 50px; padding-left:50px; padding-bottom:50px; padding-right:50px;">Création d'un article</a>
+            </div>
+
+            <div class="col-lg-4">
+                    <a href="" style="background-color: #DF691A; color: white; padding-top: 50px; padding-left:50px; padding-bottom:50px; padding-right:50px;">Modification d'un article</a>
+            </div>
+
+            <div class="col-lg-4">
+                    <a href="" style="background-color: #DF691A; color: white; padding-top: 50px; padding-left:50px; padding-bottom:50px; padding-right:50px;">Supprimer un article</a>
+            </div>
+        </div>
+    </div>
+    </center>
+{% endblock %}

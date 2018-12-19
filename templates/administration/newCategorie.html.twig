@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% form_theme formCategorie 'bootstrap_4_layout.html.twig' %}
+
+{% block body %}
+    <center><h1>Création d'une nouvelle catégorie</h1></center>
+
+    {{ form_start(formCategorie) }}
+
+    {{ form_row(formCategorie.titre, {'attr' : {'placeholder' : "Titre de la nouvelle catégorie"}}) }}
+
+    <button type="button" class="btn btn-primary btn-lg">Créer une catégorie</button>
+    
+    {{ form_end(formCategorie) }}
+
+
+
+{% endblock %}
